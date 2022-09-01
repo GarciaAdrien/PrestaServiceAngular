@@ -1,0 +1,51 @@
+label,h3 {
+    font-weight: 800;
+}
+h3 {
+font-size:26px;
+}
+
+.btn {
+color: #ffffff;
+padding: 0.8rem;
+font-size: 14px;
+text-transform: uppercase;
+border-radius: 4px;
+font-weight: 400;
+display: block;
+width: 100%;
+cursor: pointer;
+border: 1px solid rgba(255, 255, 255, 0.2);
+background: black !important;
+}
+.btn:hover {
+color: #ffffff;
+padding: 0.8rem;
+font-size: 14px;
+text-transform: uppercase;
+border-radius: 4px;
+font-weight: 400;
+display: block;
+width: 100%;
+cursor: pointer;
+border: 1px solid rgba(255, 255, 255, 0.2);
+background: mediumvioletred !important;
+}
+.container {
+color: rgb(204, 29, 85);
+
+width: 500px;
+left:100px;
+position: absolute;
+}
+
+.form-control-nom {
+    width:200px !important;
+}
+.form-control-mail {
+    width:200px !important;
+}
+.text-area {
+width:500px;
+height:300px;
+}
