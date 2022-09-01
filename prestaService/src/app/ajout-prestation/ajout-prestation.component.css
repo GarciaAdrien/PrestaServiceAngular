@@ -59,6 +59,7 @@ height:300px;
         top: 5px;
         left: 650px;
         min-width: 700px;
+        list-style-type: none;
 }
 
 /* Font */
@@ -96,7 +97,9 @@ h1 {
     font-weight: 400;
     text-align: center;
 }
-
+ul {
+    list-style-type: none;
+}
 img {
   height: auto;
   max-width: 100%;
@@ -104,19 +107,21 @@ img {
 }
 
 .btnexplore{
-  color: #ffffff;
-  padding: 0.8rem;
-  font-size: 14px;
-  text-transform: uppercase;
-  border-radius: 4px;
-  font-weight: 400;
-  display: block;
-  width: 100%;
-  cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: transparent;
+    color: #ffffff;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: red !important;
+  }
+html {
+    background-color: white;
 }
-
 .btn:hover {
   background-color:purple;
 }
@@ -134,7 +139,6 @@ img {
 
 .cards_item {
     display: inline;
-
   padding: 1rem;
 }
 
