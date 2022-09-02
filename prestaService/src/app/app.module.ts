@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { MesPrestationsComponent } from './mes-prestations/mes-prestations.component';
 import { PrestationComponent } from './prestation/prestation.component';
 import { AccueilComponent } from './accueil/accueil.component';
+import { NotationComponent } from './notation/notation.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AccueilComponent } from './accueil/accueil.component';
     LoginComponent,
     MesPrestationsComponent,
     PrestationComponent,
-    AccueilComponent
+    AccueilComponent,
+    NotationComponent
   ],
   imports: [
     BrowserModule,
